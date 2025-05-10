@@ -6,7 +6,7 @@
     font-family:'Open Sans', sans-serif;
 }
 body{
-    background-image: url(./img/background.jpg); 
+    background-image: url(./img/Background.jpg); 
     background-attachment: fixed;
     background-size: cover;
 }
