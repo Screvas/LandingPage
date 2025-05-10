@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favi.png" type="image/x-icon">
+    <title>José Ignacio Ribeiro Lucas</title>
+</head>
+
+<body>
+    <div class="circulo"></div>
+    <section>
+        <div class="circulo"></div>
+        <header>
+            <a href="index.html" class="logo">José Ignacio Ribeiro Lucas</a>
+            <ul class="navbar">
+                <li>
+                    <a href="AboutMe.html">Quien soy</a>
+                </li>
+                <li>
+                    <a href="CurriculoV.html">CV</a>
+                </li>
+                <li><a href="proyectos.html">Proyectos destacados</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </header>
+        <div class="contenido">
+            <form class="formbox" action="mailto:sihoulette@gmail.com">
+                <fieldset>
+                    <legend>Informacion personal</legend>
+                    <label for="nombre">Nombres:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Jose Ignacio"><br><br>
+                    <label for="apellido">Apellidos:</label>
+                    <input type="text" id="apellido" name="apellido" required placeholder="Ribeiro Lucas"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="TuEmail@mail.com" required><br><br>
+                    <label for="telefono">Telefono:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="+00 600500400" required><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Mensaje</legend>
+                    <label for="mensaje">Escriba su mensaje:</label><br><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="50"
+                        placeholder="Escribe aqui brevemente tu mensaje y me pondre en contacto contigo"
+                        required></textarea><br><br>
+                    <input type="submit" value="Enviar" class="boton">
+                    <input type="reset" value="Limpiar" class="boton">
+                </fieldset>
+            </form>
+            <div class="imgbox">
+                <img src="img/JIRL.png" alt="Animated png">
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; Web Personal creada para la materia de Lenguaje de Marcas de DAM</p>
+        </div>
+        <ul class="redesSociales">
+            <li>
+                <a href="contacto.html">
+                    <ion-icon name="mail-open-outline"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/joseirl-dev/">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/Screvas">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+
+</body>
+
+</html>
